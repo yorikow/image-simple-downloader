@@ -29,7 +29,7 @@ public class Main {
 			out.close();
 			in.close();
 			byte[] response = out.toByteArray();
-			FileOutputStream fos = new FileOutputStream("/home/julia/project/java&kotlin/java-manuall/download/result.jpg");
+			FileOutputStream fos = new FileOutputStream("<YourPath>/download/result.jpg");
 			fos.write(response);
 			fos.close();
 		} catch (Exception e){
